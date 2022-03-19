@@ -3,3 +3,8 @@ include 'depth1'
 include 'depth1:depth2'
 include 'modulefolder:child1'
 include 'modulefolder:child2'
+include 'modulefolder:childnotask'
+include 'modulefolder:childnotest'
+include 'namedfolder'
+findProject(':namedfolder')?.name = 'named'
+

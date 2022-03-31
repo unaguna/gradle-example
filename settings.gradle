@@ -7,4 +7,5 @@ include 'modulefolder:childnotask'
 include 'modulefolder:childnotest'
 include 'namedfolder'
 findProject(':namedfolder')?.name = 'named'
+include 'skipped'
 
